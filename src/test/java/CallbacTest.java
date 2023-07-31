@@ -41,7 +41,6 @@ public class CallbacTest {
 
     @Test
     void RequestTest() {
-        //WebElement form = driver.findElement(By.cssSelector("[data-test-id=callback-form]"));
         driver.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys("Захар");
         driver.findElement(By.cssSelector("[data-test-id=phone] input")).sendKeys("+79820000000");
         driver.findElement(By.cssSelector("[data-test-id=agreement]")).click();
